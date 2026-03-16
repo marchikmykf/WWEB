@@ -1,0 +1,95 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo, header nav, .header-button, li, ul, .main-button button {
+    display: inline-block;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 85px;
+    padding: 30px 0;
+    background: #fff;
+}
+
+.logo-icon {
+    background: linear-gradient(rgb(187, 74, 241), #e243ae);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.logo-text {
+    color: #3d3d3d;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav ul {
+    width: 100%;
+    margin-left: 120%;
+}
+
+nav ul li{
+    margin-left: 15px;
+}
+
+nav ul li a{
+    color: #3d3d3d;
+}
+
+.header-button {
+    float: right;
+    margin: -10px 0;
+}
+
+.header-button button {
+    border: none;
+    /*transparent Приймає колір батьківського елемента*/
+    background: transparent;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.main-content {
+    padding: 100px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #980ffa, #f5339c, #ff8a05);
+}
+
+.main-content h1 {
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper p {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-button {
+    margin-left: -2%;
+    padding: 15px;
+}
+
+.main-button button {
+    font-size: 12px;
+    padding: 10px 18px;
+    margin: 0 10px;
+    border-radius: 8px;
+    color: #980ffa;
+    border: none;
+}
